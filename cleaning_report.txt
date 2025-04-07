@@ -1,0 +1,68 @@
+DATA CLEANING REPORT
+==================================================
+
+Initial Shape: (2823, 25)
+
+Missing Values (before cleaning):
+ORDERNUMBER            0
+QUANTITYORDERED        0
+PRICEEACH              0
+ORDERLINENUMBER        0
+SALES                  0
+ORDERDATE              0
+STATUS                 0
+QTR_ID                 0
+MONTH_ID               0
+YEAR_ID                0
+PRODUCTLINE            0
+MSRP                   0
+PRODUCTCODE            0
+CUSTOMERNAME           0
+PHONE                  0
+ADDRESSLINE1           0
+ADDRESSLINE2        2521
+CITY                   0
+STATE               1486
+POSTALCODE            76
+COUNTRY                0
+TERRITORY           1074
+CONTACTLASTNAME        0
+CONTACTFIRSTNAME       0
+DEALSIZE               0
+dtype: int64
+Filled missing string values in 'ADDRESSLINE2' with 'unknown'.
+Filled missing string values in 'STATE' with 'unknown'.
+Filled missing string values in 'POSTALCODE' with 'unknown'.
+Filled missing string values in 'TERRITORY' with 'unknown'.
+Converted 'ORDERDATE' to datetime format.
+Removed 0 duplicate rows.
+
+Final Shape: (2823, 25)
+
+Missing Values (after cleaning):
+ORDERNUMBER         0
+QUANTITYORDERED     0
+PRICEEACH           0
+ORDERLINENUMBER     0
+SALES               0
+ORDERDATE           0
+STATUS              0
+QTR_ID              0
+MONTH_ID            0
+YEAR_ID             0
+PRODUCTLINE         0
+MSRP                0
+PRODUCTCODE         0
+CUSTOMERNAME        0
+PHONE               0
+ADDRESSLINE1        0
+ADDRESSLINE2        0
+CITY                0
+STATE               0
+POSTALCODE          0
+COUNTRY             0
+TERRITORY           0
+CONTACTLASTNAME     0
+CONTACTFIRSTNAME    0
+DEALSIZE            0
+dtype: int64
